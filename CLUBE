@@ -1,0 +1,19 @@
+# git config --global user.name "Seu Nome"
+git config --global user.email "seu.email@example.com"
+# git checkout -b master
+# echo "# Meu Repositório" > README.md
+#git add README.md
+# git commit -m "Adiciona README inicial"
+# git checkout -b feature-branch
+# git add .
+git commit -m "Adiciona novas funcionalidades"
+git checkout -b bugfix-branch
+git add .
+git commit -m "Corrige bugs"
+git checkout feature-branch
+git pull origin master
+git merge master
+git add .
+git commit -m "Resolve conflitos na feature-branch"
+git remote add origin git@github.com:seu-usuario/meu-repositorio.git
+git remote add origin git@github.com:seu-usuario/meu-repositorio.git
